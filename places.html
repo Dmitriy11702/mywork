@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/D.png" type="image/x-icon">
+    <title>My favorite places</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .card{
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+        transition: all 0.5s ease;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img{
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/"
+          ><img src="/D.png" alt="logo" width="40"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html"
+                >My favorite places</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="https://yakutsk.ru/wp-content/uploads/2022/02/17/1632229509-4587-1.jpg" class="card-img-top" alt="Airport" />
+            <div class="card-body">
+              <h5 class="card-title">Donetsk airport</h5>
+              <p class="card-text pb-5">
+                An inactive airport on the territory of Ukraine. Since May 26,
+                2014, the work of the airport has been suspended by the State
+                Aviation Service of Ukraine.
+              </p>
+              <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA_(%D0%B0%D1%8D%D1%80%D0%BE%D0%BF%D0%BE%D1%80%D1%82)" class="btn btn-primary" target="_blank">Сheck info about this place</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://avatars.mds.yandex.net/i?id=862a8c95fc1b87350b1b4f77a34e8f2e-4355007-images-thumbs&n=13"
+              class="card-img-top"
+              alt="SherbakovaPark"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Park Sherbakova</h5>
+              <p class="card-text">
+                Donetsk park Sherbakova. It is located in the Voroshilovsky
+                district. It is bounded from the east by Universitetskaya
+                Street, from the south by Stadionnaya Street, from the west by
+                the Shakhtar Stadium, from the north by the Second City Pond.
+              </p>
+              <a href="https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B0%D1%80%D0%BA_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D1%8B_%D0%B8_%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%90._%D0%A1._%D0%A9%D0%B5%D1%80%D0%B1%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0" class="btn btn-primary" target="_blank">Сheck info about this place</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://putidorogi-nn.ru/images/stories/evropa/ukraina/donbass_arena_2.jpg" class="card-img-top" alt="DonbassArena" />
+            <div class="card-body">
+              <h5 class="card-title">Donbass Arena</h5>
+              <p class="card-text">
+                The football stadium in Donetsk, built in 2009, is designed for
+                52,667 spectators. Formally, it is the home stadium of the
+                Shakhtar football club. Since 2014, matches have not been held
+                at the stadium. The stadium is located in the Park of culture
+                and recreation.
+              </p>
+              <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BD%D0%B1%D0%B0%D1%81%D1%81_%D0%90%D1%80%D0%B5%D0%BD%D0%B0" class="btn btn-primary" target="_blank">Сheck info about this place</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
